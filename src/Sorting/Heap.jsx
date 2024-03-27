@@ -218,7 +218,7 @@ export default function Heap() {
                         </button>
                     </div>
                 </div >
-                <div className="w-[100vh] h-[100vh] flex flex-col items-center justify-center">
+                <div className="sm:w-[100vh] sm:h-[100vh] w-full h-[50vh] flex flex-col items-center justify-center">
                     <p className="text-sm text-red-500">If the tree is not properly fitting then try to zoom it out or just move the tree with cursor.</p>
                     <p className="text-sm text-yellow-500">You can also hide the child nodes by clicking on the parent node.</p>
                     {treeData.length > 0 && (
